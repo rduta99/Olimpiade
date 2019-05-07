@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Logo';
+    src: url('../font/coolvetica rg.ttf');
+}
+
+@font-face {
+    font-family: 'Darktech';
+    src: url('../font/darktech_ldr.ttf');
+}
+
+@font-face {
+    font-family: 'Machine';
+    src: url('../font/M56.ttf');
+}
+
+.uk-navbar-container {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border-bottom: 1px rgba(0, 0, 0, 0.5);
+}
+
+div.uk-countdown-number {
+    color: white;
+}
+
+div.uk-alert-success {
+    background-color: rgba(0, 0, 0, 0.3); border: 1px solid #472639; color: white;
+}
+
+table.dataTable tbody tr {
+    background-color: none;
+}
+
+html, body {
+    background-image: url('../img/Background.jpg');
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	html, body {
+        background: url(../img/Background.jpg) no-repeat center center fixed;
+    }
+}
+
+.uk-button:hover {
+    background: #713148;
+    color: white;
+}
+
+a:hover {
+    color: #9a3d58;
+}
+
+.uk-logo {
+    font-family: 'logo';
+    color: white;
+}
+
+.uk-logo:hover {
+    color: #713148;
+}
+
+input.uk-input, select.uk-select {
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+input.uk-input:focus, select.uk-select:focus {
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+input.uk-input:disabled {
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+input.files:disabled {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+input[type='submit'], button.uk-button, a.uk-button {
+    background-color: #472639;
+    color: white;
+}
