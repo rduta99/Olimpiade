@@ -7,6 +7,6 @@ class Main extends MY_Controller {
 	{
 		$this->data['content'] = 'main';
 		$this->data['title'] = '';
-		$this->load->view('template/template');
+		$this->load->view('template/template', $this->data);
 	}
 }
