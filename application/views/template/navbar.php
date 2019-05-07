@@ -1,7 +1,7 @@
 
 <nav class="uk-navbar-container uk-visible@m uk-padding uk-padding-remove-vertical" uk-navbar>
     <div class="uk-navbar-left">
-        <a class="uk-navbar-item uk-logo" href="#">T E C H P H O R I A</a>
+        <a class="uk-navbar-item uk-logo" href="#">O L M</a>
     </div>
     
     <div class="uk-navbar-right">
